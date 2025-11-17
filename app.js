@@ -1,6 +1,6 @@
 const express = require('express');
 const dotenv = require('dotenv');
-dotenv.config();
+dotenv.config({ quiet: true });
 const app = express();
 app.set('view engine', 'ejs');
 const port = process.env.PORT;
